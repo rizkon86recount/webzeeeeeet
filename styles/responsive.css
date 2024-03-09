@@ -28,7 +28,7 @@
   /* navigation */
   nav {
     position: fixed;
-    width: 50%;
+    width: 40%;
     right: 0;
     top: 0;
     transform: translateX(100%);
