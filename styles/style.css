@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #b8b5e2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-container {
+    width: 90%;
+  }
+}
+
+/* Logo dan navigasi menu */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.4rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background-color: rgba(235, 222, 222, 0.8);
+  /* border-bottom: 1px solid #543f2a; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.nav nabar a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0, 5rem;
+  border-bottom: 0.1rem solid var(--primary);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  font-size: large;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: -25px;
+  margin-left: 30px;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  color: black;
+}
+
+nav ul li a {
+  color: red;
+}
+
+/* Burger */
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+  margin: 7px;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.burger {
+  display: none;
+  z-index: 999;
+  position: fixed;
+  top: 33px;
+  right: 35px;
+}
+
+/* bagian home */
+#home {
+  background-image: url(/img/bg.jpg);
+  padding: 500px 20px;
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 2000px;
+}
+
+/* bagian tentang kami */
