@@ -95,7 +95,7 @@ nav ul li a {
 
 /* bagian home */
 #home {
-  background-image: url(/img/bg.jpg);
+  background-image: url(img/bg.jpg);
   padding: 500px 20px;
   width: 100%;
   height: 100px;
