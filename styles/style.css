@@ -42,7 +42,7 @@ a {
   z-index: 9999;
 }
 
-.nav nabar a::after {
+.navbar-nav a::after {
   content: "";
   display: block;
   padding-bottom: 0, 5rem;
